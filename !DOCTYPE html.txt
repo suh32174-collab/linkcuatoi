@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Newsletter Trello Color Design</title>
+
+<!-- Bootstrap -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<style>
+
+/* MÀU LẤY TỪ ADOBE COLOR */
+:root{
+    --primary-color:#0077B6;
+    --secondary-color:#0096C7;
+    --accent-color:#90E0EF;
+    --light-color:#CAF0F8;
+    --dark-color:#023E8A;
+}
+
+
+/* Header */
+.header{
+    background-color:var(--primary-color);
+    color:white;
+}
+
+
+/* Card màu phụ */
+.card-blue{
+    background-color:var(--secondary-color);
+    color:white;
+}
+
+
+.card-light{
+    background-color:var(--light-color);
+}
+
+
+/* Button */
+.btn-custom{
+    background-color:var(--dark-color);
+    color:white;
+    border:none;
+}
+
+.btn-custom:hover{
+    background-color:var(--primary-color);
+    color:white;
+}
+
+
+/* Footer */
+.footer{
+    background-color:var(--dark-color);
+    color:white;
+}
+
+</style>
+
+</head>
+
+
+<body>
+
+
+<div class="container py-5">
+
+
+<!-- HEADER -->
+<header class="header text-center p-5 rounded mb-5">
+
+<h1>
+Newsletter Trello
+</h1>
+
+<p class="fs-5">
+Cập nhật những câu chuyện và tính năng mới
+</p>
+
+</header>
+
+
+
+
+<!-- INTRO -->
+
+<section class="card shadow mb-4">
+
+<div class="card-body p-4">
+
+<h2 style="color:#0077B6">
+Chào mừng bạn đến với bản tin
+</h2>
+
+
+<p>
+Khám phá các công cụ giúp bạn quản lý công việc,
+làm việc nhóm và tăng hiệu quả mỗi ngày.
+</p>
+
+
+<button class="btn btn-custom">
+Tìm hiểu thêm
+</button>
+
+
+</div>
+
+</section>
+
+
+
+
+
+<!-- FEATURE -->
+
+
+<section class="row">
+
+
+<div class="col-md-6 mb-3">
+
+
+<div class="card card-blue h-100 shadow">
+
+
+<div class="card-body">
+
+
+<h3>
+Quản lý công việc
+</h3>
+
+
+<p>
+Theo dõi nhiệm vụ, sắp xếp kế hoạch
+và hoàn thành mục tiêu dễ dàng.
+</p>
+
+
+</div>
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+<div class="col-md-6 mb-3">
+
+
+<div class="card card-light h-100 shadow">
+
+
+<div class="card-body">
+
+
+<h3 style="color:#023E8A">
+Làm việc nhóm
+</h3>
+
+
+<p>
+Kết nối thành viên và chia sẻ ý tưởng
+trong cùng một không gian.
+</p>
+
+
+</div>
+
+
+</div>
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+<!-- IMAGE -->
+
+<section class="text-center mt-5">
+
+
+<img 
+src="https://images.unsplash.com/photo-1552664730-d307ca884978"
+class="img-fluid rounded shadow"
+style="max-height:350px;"
+>
+
+
+</section>
+
+
+
+
+
+<!-- FOOTER -->
+
+<footer class="footer text-center mt-5 p-4 rounded">
+
+
+<p>
+© 2026 Trello Newsletter - UI Design Practice
+</p>
+
+
+</footer>
+
+
+
+</div>
+
+
+</body>
+</html>
